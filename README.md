@@ -2,7 +2,7 @@
 Performing analysis on Kickstarter data to uncover trends
 Analysis for theater play kickstarters in order to startegize the right plan for Louise  
 Out of all the parent categories found Theaters have the most kickstarters 
-![](fcberni/kickstarter-analysis/Parent%20Categories%20Outcome%20chart.png)
+[Parent Categories Outcome chart.png](https://github.com/fcberni/kickstarter-analysis/blob/master/Parent%20Categories%20Outcome%20chart.png)
 I focused specifically on theaters as parent categories and plays as subcategories
 Out of 912 theater kickstarters 525 were successful
 Out of 314 plays kickstarters 238 were successful
