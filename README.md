@@ -11,7 +11,12 @@ The purpose of this project is to provide data for Louise based on how other kic
 
 I used the raw data of kickstarters and created two new columns titled Date Created Conversion and Date Ended Conversion (S and T) to convert the Unix timestamps from columns I and J to make sure both dates can be easily read. Afterwards, I created an additional column (U) titled Years to separate the years from the Date Created Conversion column. I made a pivot table titled Outcomes Based on Launch Date in which I filtered the Parent Category for Theaters and looked over successful, failed and canceled outcomes throughout each month within a calendar year. 
 
+![outcomes_vs_launch_screencap.png](Resources/outcomes_vs_launch_screencap.png)
+
 Lastly, I created a worksheet titled Outcome Based on Goals which specifically looked at specific ranges of Goal amounts and their Successful, Failed and Canceled outcomes. I initially used the COUNTIF formula set to the data in the Kickstarter worksheet, however it was pulling from all of the data regardless of it being filtered or not. Instead I filtered the Subcategory column in the Kickstarter sheet to Plays only and filtered off Live from the Outcomes column. Once my filters were set, I copied and pasted the data into a separate worksheet titled Plays. I set my COUNTIF formula to the Plays sheet and this resulted in the data being accurate. I took the sum of each row and made percentages based on each outcome so we would have a consistent Succeed vs Fail rate based on the Goal category (there were no canceled outcomes in this dataset).
+
+
+![outcomes_vs_goals_screencap.png](Resources/outcomes_vs_goals_screencap.png) 
 
 
 ### Analysis of Outcomes Based on Launch Date
